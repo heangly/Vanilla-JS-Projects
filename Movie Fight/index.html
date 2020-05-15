@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/>
+  <!-- bulma css library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css"/>
+  <link rel="stylesheet" href="style.css" />
+  <title>Movie Fight</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section class="hero is-primary is-bold">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title"> Movie Fight <span class="icon"> <i class="fas fa-film"></i> </span> </h1>
+      </div>
+    </div>
+  </section>
+
+  <!-- Content -->
+  <div class="container">
+    <div class="columns">
+      <!-- left side search -->
+      <div class="column">
+        <div id="left-autocomplete"></div>
+        <div id="left-summary"></div>
+      </div>
+      <!-- right side search -->
+      <div class="column">
+        <div id="right-autocomplete"></div>
+        <div id="right-summary"></div>
+      </div>
+    </div>
+    <!-- message / instruction to tell user how to use the app -->
+    <div class="column is-half notification is-primary tutorial">
+      <h1 class="title">Search For a Movie on Both Sides</h1>
+      <p class="subtitle">We will tell you which is the best!</p>
+    </div>
+
+    <br>
+    <!-- <div class="columns is-centered clearMovie">
+      <a class="button is-primary is-outlined is-large"> Clear </a>
+    </div> -->
+  </div>
+
+   <!-- Place AXIOS Before your JS file -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+  <script src="utilities.js"></script>
+  <script src="autocomplete.js"></script>
+  <!-- the main js file has to call last -->
+  <script src="index.js"></script>
+</body>
+</html>
