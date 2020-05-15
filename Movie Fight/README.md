@@ -1,6 +1,6 @@
-Author: Heang Ly
-Application: Movie Fight
-Date: 2020
+- Author: Heang Ly
+- Application: Movie Fight
+- Date: 2020
 
 What does it do?
   - Requesting real movies data
