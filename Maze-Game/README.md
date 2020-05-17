@@ -1,6 +1,6 @@
--Author: Heang Ly
--Date: 2020
--Application: Maze Game
+- Author: Heang Ly
+- Date: 2020
+- Application: Maze Game
 
 What does it do?
 - Pressing W A S D key to move the ball around until it arrives at the exit
