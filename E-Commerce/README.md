@@ -11,6 +11,7 @@ What does it do for admin?
 - Modifying the price, images, titles of items
 
 What are technologies?
-- Node Js Sever
-- Vanilla JS
-
+- Node Js Server (Host on local machine)
+- Node JS Server will listen for request and generate dynamic HTML to the website
+- File-based data store (database)
+- Node package json, express, nodemon
