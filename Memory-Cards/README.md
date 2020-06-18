@@ -9,5 +9,5 @@ What does it do?
 
 What are techologies?
 - Vanilla JS
-- Local 
+- Local storage
 - Font awesome
